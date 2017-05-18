@@ -81,7 +81,7 @@ Main
 font-family: 'Libre Baskerville', serif;
 }
 .main p{
-color: black; 
+color: black;
 }
 
 .row{
@@ -103,7 +103,7 @@ Footer
 }
 
 .footer h3{
-  color: #cc9900;
+  color: darkgrey;
   font-family: 'Libre Baskerville', serif;
 }
 .footer p{
