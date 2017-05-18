@@ -1,0 +1,120 @@
+/*******************************************
+General
+*******************************************/
+.wrap{
+  width: 93%;
+  margin: auto;
+}
+
+/*******************************************
+Navigation
+*******************************************/
+.top-bar{
+
+  background-image: url("../images/bo_play_pattern.png");
+
+}
+
+.top-bar ul{
+  background-color: transparent;
+}
+.top-bar li{
+background-image: url("../images/bo_play_pattern.png");
+}
+.top-bar h4, .top-bar a{
+  color: #cc9900;
+  font-weight: bold;
+font-family: 'Libre Baskerville', serif;
+}
+a:hover{
+  color: red;
+}
+.orbit img{
+  max-height: 22em;
+}
+/* .dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+
+  display: block;
+width: 0;
+height: 0;
+border: inset 6px;
+border-bottom-width: 0;
+border-top-style: solid;
+border-color: #cc9900 transparent transparent;
+right: 5px;
+margin-top: -3px;
+
+}*/
+
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a::after {
+    display: block;
+    width: 0;
+    height: 0;
+    border: inset 6px;
+    content: '';
+    border-bottom-width: 0;
+    border-top-style: solid;
+    border-color: #cc9900 transparent transparent;
+}
+/*******************************************
+Header
+*******************************************/
+
+
+
+
+/*******************************************
+Main
+*******************************************/
+.main{
+  padding: 2em 0;
+  background-image: url("../images/grey_wash_wall.png");
+
+}
+ img{
+  max-height: 22em;
+}
+.main p, .main h3{
+  color: black;
+  font-weight: bold;
+/*font-family: 'Lora', serif;*/
+font-family: 'Libre Baskerville', serif;
+}
+
+.row{
+  text-align: center;
+  margin: auto;
+}
+.main .row h3, .main .row p{
+  text-align: left;
+}
+.main h2{
+  color: #cc9900;
+  text-decoration:underline;
+}
+/*******************************************
+Footer
+*******************************************/
+.footer{
+  background-image: url("../images/bo_play_pattern.png");
+  text-align: center;
+  padding: 1em 0;
+
+}
+
+.footer h3{
+  color: darkgrey;
+  font-family: 'Libre Baskerville', serif;
+}
+.footer p{
+  color: #cc9900;
+font-family: 'Libre Baskerville', serif;
+}
+.footer a{
+  color: #cc9900;
+}
+.footer img{
+  height: 3em;
+  width: 3em;
+  text-align: center;
+}
