@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Roboto');
 body{
   color: black;
   background-image: url(https://tse2.mm.bing.net/th?id=OIP.Zlws0QtpL7xH1M0ctfSsQQDaEs&pid=15.1);
 }
-body p{
+p{
 
   text-decoration: bold;
   font-family: 'Noto Serif', serif;
@@ -11,7 +11,7 @@ body p{
   font-size: 30px;
 }
 h1{
-
+font-family: 'Roboto', sans-serif;
       text-align: center;
     font-size: 28px;
 }
