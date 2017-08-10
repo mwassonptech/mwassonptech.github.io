@@ -39,3 +39,23 @@ h4{
   text-align: left;
   font-size: 18px;
 }
+header{
+  background-color:#FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+footer{
+  background-color:#FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+article{
+  background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+nav{
+  background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
