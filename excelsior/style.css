@@ -40,22 +40,64 @@ h4{
   font-size: 18px;
 }
 header{
-  background-color:#FFED74;
-    border: 1px black solid;
+      border: 1px black solid;
     padding: 20px;
 }
 footer{
-  background-color:#FF957E;
-    border: 1px black solid;
+      border: 1px black solid;
     padding: 20px;
 }
 article{
-  background-color: #E89C6C;
+      border: 1px black solid;
+    padding: 20px;
+    /*float: right;*/
+    font-size: 20px;
+}
+nav{
     border: 1px black solid;
     padding: 20px;
 }
-nav{
-  background-color: #E8C66A;
+a{
+  text-align: center;
+  font-size: 28px;
+  color:black;
+}
+a:hover{
+  color:red;
+}
+
+}
+aside{
+  /*float: left;*/
+  font-size: 20px;
+}
+#two_column {
+    background-color: #f70000;
     border: 1px black solid;
     padding: 20px;
+}
+
+#left {
+    background-color: #418ff4;
+    border: 1px black solid;
+    padding: 20px;
+float: left;
+width: 30%;
+}
+
+#right {
+    background-color: #f44242;
+    border: 1px black solid;
+    padding: 20px;
+float: right;
+width: 62%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
